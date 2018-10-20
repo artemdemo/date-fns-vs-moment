@@ -3,6 +3,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const {
     IgnorePlugin,
     DefinePlugin,
+    ContextReplacementPlugin,
 } = require('webpack');
 const {
     ModuleConcatenationPlugin,
@@ -88,6 +89,9 @@ module.exports = (options) => {
             new DefinePlugin({
                 ENV: {production: options.isProduction},
             }),
+
+            // We are not using all locales from moment.js only what we need
+            new ContextReplacementPlugin(/moment[/\\]locale$/, /en/),
 
             new HtmlWebpackPlugin({
                 template: './source/index.ejs',
