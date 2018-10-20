@@ -4,7 +4,7 @@ import { timestamp, diffTimestamp, formatStr } from './constants';
 /**
  * Convert given date to UTC
  * @link https://github.com/date-fns/date-fns/issues/556#issuecomment-391048347
- * @param date | JS date
+ * @param date | plain JS date object
  * @return {Date | *}
  */
 function toUTC(date) {
@@ -14,13 +14,14 @@ function toUTC(date) {
 }
 
 const dateFnsExample = ($el) => {
+    const now = new Date();
     $el.html(`
         <div>
             <p>Regular: ${format(timestamp, formatStr)}</p>
             <p>UTC: ${format(toUTC(new Date(timestamp)), formatStr)}</p>
             <p>Duration in days: ${differenceInDays(diffTimestamp, 0)} (provides difference in <strong>full</strong> days)</p>
             <p>Duration human readable: ${distanceInWords(diffTimestamp, 0)}</p>
-            <p>Timestamp: ${format(new Date(), 'x')}</p>
+            <p>Timestamp: ${format(now, 'x')}</p>
         </div>
     `);
 };
