@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd92c73c-305c-4399-ba51-5a6cd659e5ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/examples/dateFns.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/examples/dateFns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/examples/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/examples/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,16 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dateFns.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dateFns.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/examples/dateFns.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="moment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/examples/moment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -125,8 +120,8 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/webpack/webpack.common.js" />
         <option value="$PROJECT_DIR$/source/index.js" />
-        <option value="$PROJECT_DIR$/source/examples/dateFns.js" />
         <option value="$PROJECT_DIR$/source/examples/moment.js" />
+        <option value="$PROJECT_DIR$/source/examples/dateFns.js" />
       </list>
     </option>
   </component>
@@ -281,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5073000" />
+    <option name="totallyTimeSpent" value="5413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="23" width="1551" height="1027" extended-state="0" />
@@ -486,17 +481,17 @@
     <entry file="file://$PROJECT_DIR$/build/js/3.chunk-090bd53375238ca59a89.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/examples/dateFns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/examples/moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/examples/dateFns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
