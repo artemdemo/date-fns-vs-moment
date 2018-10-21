@@ -1,17 +1,6 @@
-import { format, differenceInDays, distanceInWords, addMinutes, subMinutes } from 'date-fns';
-import { timestamp, diffTimestamp, formatStr } from './constants';
-
-/**
- * Convert given date to UTC
- * @link https://github.com/date-fns/date-fns/issues/556#issuecomment-391048347
- * @param date | plain JS date object
- * @return {Date | *}
- */
-function toUTC(date) {
-    const offset = date.getTimezoneOffset();
-
-    return Math.sign(offset) !== -1 ? addMinutes(date, offset) : subMinutes(date, Math.abs(offset));
-}
+import { format, differenceInDays, distanceInWords } from 'date-fns';
+import { timestamp, diffTimestamp, formatStr } from '../constants';
+import { toUTC } from '../utils';
 
 const dateFnsExample = ($el) => {
     const now = new Date();

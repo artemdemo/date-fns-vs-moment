@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { timestamp, diffTimestamp, formatStr } from './constants';
+import { timestamp, diffTimestamp, formatStr } from '../constants';
 
 const momentExample = ($el) => {
     $el.html(`
