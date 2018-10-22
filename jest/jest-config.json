@@ -1,0 +1,34 @@
+{
+  "rootDir": "../",
+  "testMatch": [
+    "**/__tests__/**/?(*.)(spec|test).js?(x)"
+  ],
+  "transform": {
+    ".*": "<rootDir>/node_modules/babel-jest"
+  },
+  "setupFiles": [],
+  "transformIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "unmockedModulePathPatterns": [
+    "react",
+    "react-dom",
+    "<rootDir>/node_modules/babel-polyfill/"
+  ],
+  "globals": {
+    "ENV": {
+      "production": true
+    }
+  },
+  "collectCoverageFrom": [
+    "source/**/*.{js,jsx}",
+    "!source/libraries/**",
+    "!source/styles/**",
+    "!source/images/**",
+    "!node_modules/**"
+  ],
+  "coverageReporters": [
+    "text",
+    "text-summary"
+  ]
+}
