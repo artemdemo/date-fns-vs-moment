@@ -3,7 +3,6 @@ import { timestamp, diffTimestamp, formatStr } from '../constants';
 import { toUTC } from '../utils';
 
 const dateFnsExample = ($el) => {
-    console.log(toUTC(new Date(timestamp)));
     $el.html(
         `<div>
             <p>Regular: ${format(timestamp, formatStr)}</p>
