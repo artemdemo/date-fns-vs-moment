@@ -19,4 +19,9 @@ MomentMock.utc = MomentMock;
 
 MomentMock.isMoment = () => true;
 
+MomentMock.duration = time => ({
+    asDays: () => `${time} asDays`,
+    humanize: () => `${time} humanize`,
+});
+
 export default MomentMock;

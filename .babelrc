@@ -1,16 +1,17 @@
 {
   "presets": [
-    ["@babel/preset-env", {
+    ["env", {
       "targets": {
         "browsers": ["last 2 versions"]
       }
     }]
   ],
   "plugins": [
-    "@babel/transform-object-assign",
-    "@babel/plugin-proposal-object-rest-spread",
-    "@babel/plugin-syntax-dynamic-import",
-    ["@babel/plugin-transform-runtime", {
+    "transform-object-assign",
+    "transform-object-rest-spread",
+    "syntax-dynamic-import",
+    ["transform-runtime", {
+      "polyfill": false,
       "regenerator": true
     }]
   ]
