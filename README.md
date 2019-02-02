@@ -8,5 +8,4 @@ This is why each method is not only separated, but also encouraged to use separa
 
 ## bundle results (all minified)
 
-* moment - 57.4 kb
-* date-fns - 29.1 kb
+![bundle results](results-2019-02-02.png "Bundle results")
