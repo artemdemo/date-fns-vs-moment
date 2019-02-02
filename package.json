@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/artemdemo/date-fns-vs-moment#readme",
   "devDependencies": {
-    "@types/jest": "^23.3.5",
+    "@types/jest": "^23.3.13",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
